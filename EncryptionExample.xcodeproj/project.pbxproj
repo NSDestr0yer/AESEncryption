@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4095E51B1910504100117301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095E51A1910504100117301 /* Foundation.framework */; };
+		4095E51D1910504100117301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095E51C1910504100117301 /* CoreGraphics.framework */; };
+		4095E51F1910504100117301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095E51E1910504100117301 /* UIKit.framework */; };
+		4095E5251910504100117301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4095E5231910504100117301 /* InfoPlist.strings */; };
+		4095E5271910504100117301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4095E5261910504100117301 /* main.m */; };
+		4095E52B1910504100117301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4095E52A1910504100117301 /* AppDelegate.m */; };
+		4095E52E1910504100117301 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4095E52C1910504100117301 /* Main_iPhone.storyboard */; };
+		4095E5311910504100117301 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4095E52F1910504100117301 /* Main_iPad.storyboard */; };
+		4095E5341910504100117301 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4095E5331910504100117301 /* ViewController.m */; };
+		4095E5361910504100117301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4095E5351910504100117301 /* Images.xcassets */; };
+		4095E53D1910504100117301 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095E53C1910504100117301 /* XCTest.framework */; };
+		4095E53E1910504100117301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095E51A1910504100117301 /* Foundation.framework */; };
+		4095E53F1910504100117301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095E51E1910504100117301 /* UIKit.framework */; };
+		4095E5471910504100117301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4095E5451910504100117301 /* InfoPlist.strings */; };
+		4095E5491910504100117301 /* EncryptionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4095E5481910504100117301 /* EncryptionExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4095E5401910504100117301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4095E50F1910504100117301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4095E5161910504100117301;
+			remoteInfo = EncryptionExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4095E5171910504100117301 /* EncryptionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4095E51A1910504100117301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4095E51C1910504100117301 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4095E51E1910504100117301 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4095E5221910504100117301 /* EncryptionExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptionExample-Info.plist"; sourceTree = "<group>"; };
+		4095E5241910504100117301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4095E5261910504100117301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4095E5281910504100117301 /* EncryptionExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncryptionExample-Prefix.pch"; sourceTree = "<group>"; };
+		4095E5291910504100117301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4095E52A1910504100117301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4095E52D1910504100117301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4095E5301910504100117301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4095E5321910504100117301 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4095E5331910504100117301 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4095E5351910504100117301 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4095E53B1910504100117301 /* EncryptionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4095E53C1910504100117301 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4095E5441910504100117301 /* EncryptionExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EncryptionExampleTests-Info.plist"; sourceTree = "<group>"; };
+		4095E5461910504100117301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4095E5481910504100117301 /* EncryptionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4095E5141910504100117301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095E51D1910504100117301 /* CoreGraphics.framework in Frameworks */,
+				4095E51F1910504100117301 /* UIKit.framework in Frameworks */,
+				4095E51B1910504100117301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095E5381910504100117301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095E53D1910504100117301 /* XCTest.framework in Frameworks */,
+				4095E53F1910504100117301 /* UIKit.framework in Frameworks */,
+				4095E53E1910504100117301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4095E50E1910504100117301 = {
+			isa = PBXGroup;
+			children = (
+				4095E5201910504100117301 /* EncryptionExample */,
+				4095E5421910504100117301 /* EncryptionExampleTests */,
+				4095E5191910504100117301 /* Frameworks */,
+				4095E5181910504100117301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4095E5181910504100117301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4095E5171910504100117301 /* EncryptionExample.app */,
+				4095E53B1910504100117301 /* EncryptionExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4095E5191910504100117301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4095E51A1910504100117301 /* Foundation.framework */,
+				4095E51C1910504100117301 /* CoreGraphics.framework */,
+				4095E51E1910504100117301 /* UIKit.framework */,
+				4095E53C1910504100117301 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4095E5201910504100117301 /* EncryptionExample */ = {
+			isa = PBXGroup;
+			children = (
+				4095E5291910504100117301 /* AppDelegate.h */,
+				4095E52A1910504100117301 /* AppDelegate.m */,
+				4095E52C1910504100117301 /* Main_iPhone.storyboard */,
+				4095E52F1910504100117301 /* Main_iPad.storyboard */,
+				4095E5321910504100117301 /* ViewController.h */,
+				4095E5331910504100117301 /* ViewController.m */,
+				4095E5351910504100117301 /* Images.xcassets */,
+				4095E5211910504100117301 /* Supporting Files */,
+			);
+			path = EncryptionExample;
+			sourceTree = "<group>";
+		};
+		4095E5211910504100117301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4095E5221910504100117301 /* EncryptionExample-Info.plist */,
+				4095E5231910504100117301 /* InfoPlist.strings */,
+				4095E5261910504100117301 /* main.m */,
+				4095E5281910504100117301 /* EncryptionExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4095E5421910504100117301 /* EncryptionExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4095E5481910504100117301 /* EncryptionExampleTests.m */,
+				4095E5431910504100117301 /* Supporting Files */,
+			);
+			path = EncryptionExampleTests;
+			sourceTree = "<group>";
+		};
+		4095E5431910504100117301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4095E5441910504100117301 /* EncryptionExampleTests-Info.plist */,
+				4095E5451910504100117301 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4095E5161910504100117301 /* EncryptionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4095E54C1910504100117301 /* Build configuration list for PBXNativeTarget "EncryptionExample" */;
+			buildPhases = (
+				4095E5131910504100117301 /* Sources */,
+				4095E5141910504100117301 /* Frameworks */,
+				4095E5151910504100117301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptionExample;
+			productName = EncryptionExample;
+			productReference = 4095E5171910504100117301 /* EncryptionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4095E53A1910504100117301 /* EncryptionExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4095E54F1910504100117301 /* Build configuration list for PBXNativeTarget "EncryptionExampleTests" */;
+			buildPhases = (
+				4095E5371910504100117301 /* Sources */,
+				4095E5381910504100117301 /* Frameworks */,
+				4095E5391910504100117301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4095E5411910504100117301 /* PBXTargetDependency */,
+			);
+			name = EncryptionExampleTests;
+			productName = EncryptionExampleTests;
+			productReference = 4095E53B1910504100117301 /* EncryptionExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4095E50F1910504100117301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CollinBStuart;
+				TargetAttributes = {
+					4095E53A1910504100117301 = {
+						TestTargetID = 4095E5161910504100117301;
+					};
+				};
+			};
+			buildConfigurationList = 4095E5121910504100117301 /* Build configuration list for PBXProject "EncryptionExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4095E50E1910504100117301;
+			productRefGroup = 4095E5181910504100117301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4095E5161910504100117301 /* EncryptionExample */,
+				4095E53A1910504100117301 /* EncryptionExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4095E5151910504100117301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095E5311910504100117301 /* Main_iPad.storyboard in Resources */,
+				4095E5361910504100117301 /* Images.xcassets in Resources */,
+				4095E52E1910504100117301 /* Main_iPhone.storyboard in Resources */,
+				4095E5251910504100117301 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095E5391910504100117301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095E5471910504100117301 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4095E5131910504100117301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095E5341910504100117301 /* ViewController.m in Sources */,
+				4095E52B1910504100117301 /* AppDelegate.m in Sources */,
+				4095E5271910504100117301 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4095E5371910504100117301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4095E5491910504100117301 /* EncryptionExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4095E5411910504100117301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4095E5161910504100117301 /* EncryptionExample */;
+			targetProxy = 4095E5401910504100117301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4095E5231910504100117301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4095E5241910504100117301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4095E52C1910504100117301 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4095E52D1910504100117301 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4095E52F1910504100117301 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4095E5301910504100117301 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4095E5451910504100117301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4095E5461910504100117301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4095E54A1910504100117301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4095E54B1910504100117301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4095E54D1910504100117301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionExample/EncryptionExample-Prefix.pch";
+				INFOPLIST_FILE = "EncryptionExample/EncryptionExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4095E54E1910504100117301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionExample/EncryptionExample-Prefix.pch";
+				INFOPLIST_FILE = "EncryptionExample/EncryptionExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4095E5501910504100117301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncryptionExample.app/EncryptionExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionExample/EncryptionExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EncryptionExampleTests/EncryptionExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4095E5511910504100117301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EncryptionExample.app/EncryptionExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EncryptionExample/EncryptionExample-Prefix.pch";
+				INFOPLIST_FILE = "EncryptionExampleTests/EncryptionExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4095E5121910504100117301 /* Build configuration list for PBXProject "EncryptionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4095E54A1910504100117301 /* Debug */,
+				4095E54B1910504100117301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4095E54C1910504100117301 /* Build configuration list for PBXNativeTarget "EncryptionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4095E54D1910504100117301 /* Debug */,
+				4095E54E1910504100117301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4095E54F1910504100117301 /* Build configuration list for PBXNativeTarget "EncryptionExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4095E5501910504100117301 /* Debug */,
+				4095E5511910504100117301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4095E50F1910504100117301 /* Project object */;
+}
